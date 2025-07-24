@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+---
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 📝 Simple Note App
 
-## Get started
+A beautiful, minimal note-taking app built with [Expo](https://expo.dev), [Zustand](https://github.com/pmndrs/zustand), [NativeWind](https://www.nativewind.dev/), and [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/). Inspired by apps like Apple Notes and Google Keep.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- 📄 Create, edit, and delete notes  
+- 🎨 Assign colors to notes  
+- 💾 Notes persist using `AsyncStorage`  
+- 🎭 Smooth animations powered by Reanimated  
+- 🎨 Fully responsive, styled with Tailwind via NativeWind  
+- 📱 Keyboard-aware inputs  
+- ✅ Works on iOS and Android
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📸 Preview
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Home Screen | Add Note | Edit Mode |
+|-------------|----------|------------|
+| ![Home Screen](https://github.com/user-attachments/assets/99194f8c-0f5a-4c83-ae35-65b1052fa535) | ![Add Note](https://github.com/user-attachments/assets/2da233cc-e608-4561-90c9-57a0fdaf5f7c) | ![Edit Mode](https://github.com/user-attachments/assets/928c5fbf-1119-4b3a-a6e5-8897c39108fb) |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 
 ```bash
-npm run reset-project
+git clone https://github.com/abdullah-bahraq/rn-simple-note-app.git
+cd rn-simple-note-app
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+pnpm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 3. Run the app
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Then:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Press `i` to open iOS simulator (Mac only)
+* Press `a` to open Android emulator
+* Or scan the QR with the [Expo Go](https://expo.dev/go) app
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Made with ❤️ by [abdullah-bahraq](https://github.com/abdullah-bahraq) using [Expo](https://expo.dev)
